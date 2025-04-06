@@ -1,0 +1,193 @@
+
+    body {
+      font-family:Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      background-image: url("assets/background2.avif");
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0;
+      color: antiquewhite;
+      padding: 20px;
+      
+  }
+  
+  header {
+      background:transparent;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin: 20px 0;
+
+  }
+  h1 {
+      margin: 70px;  
+  }
+  
+  section {
+    margin: 20px 0;
+    max-width: 800px;
+    margin: auto;
+}
+  
+  h2 {
+      color:antiquewhite
+      
+  }
+  
+  form {
+      display: flex;
+      flex-direction: column;
+      margin: 20px 0;
+      
+    
+    
+  }
+  
+  label {
+      margin: 10px 0 5px;
+
+  }
+  
+  input, textarea {
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+  }
+  
+  button {
+      padding: 10px;
+      color: black;
+      background:antiquewhite;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: 0.3s;
+
+  }
+  
+  button:hover {
+      background:aqua
+      
+  }
+  
+  footer {
+      text-align: center;
+      padding: 15px;
+      color: antiquewhite 
+  }
+  .navbar{
+    display: flex;
+    justify-content:space-between;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color:black
+   
+    
+  
+  }
+  .navbar a{
+    color:antiquewhite;
+    padding: 10px 20px;
+    text-decoration:none;
+    
+  }
+  .navbar ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    margin: 0 15px;
+    
+  }
+  .navbar li{
+    letter-spacing: 4px;
+    margin-left: 32px;
+    margin: 0 10px;
+    
+    
+  }
+  .navbar li a:hover{
+    color: aqua;
+    transition: 0.3s;
+  }  
+  
+
+    .logo {
+      color:antiquewhite; /* Cor da logo */
+      font-size: 24px; /* Tamanho da fonte */
+  }
+  
+
+  
+  
+ 
+  
+  
+  /* Estilos Responsivos */
+  @media (max-width: 768px) {
+      .nav-links {
+          display: none; /* Oculta os links por padrão */
+          flex-direction: column; /* Exibe em coluna */
+          position: absolute; /* Posiciona de forma absoluta */
+          top: 60px; /* Espaço do topo */
+          right: 20px; /* Espaço da direita */
+          background-color:transparent; /* Cor de fundo */
+          width: 200px; /* Largura da lista */
+      }
+      
+  }
+    
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+article img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media queries para responsividade */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+section{
+  padding: 50px;
+  
+}
+  
+
+
+  
+  
+
+  
+
+  
+ 
+  
+  
+    
+  
+  
+
+  
+
+
+
+
