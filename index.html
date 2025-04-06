@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+  <body>
+    <nav class="navbar">
+        <div class="logo"></div>   
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+            
+        </ul>
+    </nav>
+
+      <header>
+          <h1> <img src="assets/Allan.jpeg" style="border-radius: 50%; max-width: 100%; height: auto;">
+ 
+            <br>
+            Allan Lira 
+          </h1>
+          <p>Estudante de análise e desenvolvimento de sistemas</p>
+      </header>
+  
+      <section id="sobre">
+          <h2>Sobre Mim</h2>
+          <br>
+          <p>Olá! Sou Allan Lira estudante de análise e desenvolvimento de sistemas, 
+            <br>
+            trabalho atualmente no setor automotivo na linha de veículos importados.
+            <br> Tenho conhecimento em HTML, CSS, JavaScript, Java, Phyton. Gosto de viajar, animes, video game. </p>
+            <br>
+            <br>
+
+          <h3>Habilidades</h3>
+          <br>
+          <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Phyton</li>
+              <li>Java</li>
+              
+              
+          </ul>
+          
+          
+      </section>
+  
+      <section id="projetos">
+          <h2>Projetos</h2>
+          <br>
+          <article>
+              <h3>Mountain Shooter</h3>
+              <img src="assets/Mountain shooter.png" alt= "foto_projeto">
+              <p>Jogo desenvolvido em grupo na linguagem phyton. <a href="https://github.com/Leturnos/Trab_LP"target="_blank">Veja mais</a></p>
+              
+              
+          </article>
+          <br>
+          <br>
+          <article>
+              <h3>Cofrinho de moeda</h3>
+              <br>
+              <p>Desenvolvimento de um cofrinho de moeda em Java.
+          </article>
+          
+          </article>
+      </section>
+  
+      <section id="contato">
+          <h2>Contato</h2>
+          <form action="formulario.php" method="post" autocomplete="on">
+              <label for="name">Nome:</label>
+              <input type="text" id="name" name="nome" required>
+  
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" name="email"   required>
+  
+              <label for="message">Mensagem:</label>
+              <textarea id="message" name="nome" required></textarea>
+  
+              <button type="submit" id="submit">Enviar</button>
+          </form>
+      </section>
+  
+      <footer>
+          <p>&copy; 2025 Allan Lira</p>
+      </footer>
+  
+      <script src="./scripts/index.js"></script>
+  </body>
+  </html>
