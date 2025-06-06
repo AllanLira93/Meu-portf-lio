@@ -71,15 +71,18 @@
       
   }
   
- footer {
+footer {
       text-align: center;
       padding: 15px;
       color: antiquewhite 
           
   }
-  @media (max-width: 600px){
-    
-  }
+  @media (max-width: 600px) {
+    footer {
+        font-size: 14px; 
+        padding: 10px; 
+    }
+}
   .navbar{
     display: flex;
     justify-content:space-between;
